@@ -1,6 +1,6 @@
 Package.describe({
     name: 'maxencecornet:audio-recorder',
-    version: '0.0.1',
+    version: '0.0.2',
     // Brief, one-line summary of the package.
     summary: 'Record audio input from the user microphone, export to .wav or ArrayBuffer',
     // URL to the Git repository containing the source code for this package.
