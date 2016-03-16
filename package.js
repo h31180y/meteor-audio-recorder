@@ -15,6 +15,7 @@ Package.onUse(function (api) {
     api.use(['ecmascript', 'check']);
 
     api.addFiles(['lib/client/compatibility/recorder.js', 'lib/client/audio-recorder.js'], ['client']);
+    api.addAssets(['assets/recorderWorker.js'], ['client']);
     api.export('AudioRecorder', 'client');
 });
 
